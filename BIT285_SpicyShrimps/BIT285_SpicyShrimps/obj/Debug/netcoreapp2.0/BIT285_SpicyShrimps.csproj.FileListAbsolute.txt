@@ -1,0 +1,11 @@
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.deps.json
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.runtimeconfig.json
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.runtimeconfig.dev.json
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.dll
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.csprojResolveAssemblyReference.cache
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.csproj.CoreCompileInputs.cache
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.AssemblyInfoInputs.cache
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.AssemblyInfo.cs
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.pdb
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.dll
+C:\Users\Mei\source\repos\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.pdb

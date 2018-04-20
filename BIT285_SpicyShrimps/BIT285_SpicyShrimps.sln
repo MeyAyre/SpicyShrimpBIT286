@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIT285_SpicyShrimps", "BIT285_SpicyShrimps\BIT285_SpicyShrimps.csproj", "{EDB7F7C3-BED5-4E70-9238-0D1B80B405EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB7F7C3-BED5-4E70-9238-0D1B80B405EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB7F7C3-BED5-4E70-9238-0D1B80B405EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB7F7C3-BED5-4E70-9238-0D1B80B405EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB7F7C3-BED5-4E70-9238-0D1B80B405EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFB8FAF1-DC95-4012-9EFA-CD2B9340CA9F}
+	EndGlobalSection
+EndGlobal
