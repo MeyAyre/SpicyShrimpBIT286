@@ -1,1 +1,3 @@
-﻿This is a new change to text file erased hello world!
+This is a new change to text file erased hello world!
+
+from joanie
