@@ -20,3 +20,14 @@ C:\Users\Mei\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShri
 C:\Users\Mei\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.AssemblyInfo.cs
 C:\Users\Mei\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.dll
 C:\Users\Mei\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.pdb
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.deps.json
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.runtimeconfig.json
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.runtimeconfig.dev.json
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.dll
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\BIT285_SpicyShrimps.pdb
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.csprojResolveAssemblyReference.cache
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.csproj.CoreCompileInputs.cache
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.AssemblyInfoInputs.cache
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.AssemblyInfo.cs
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.dll
+D:\Users\poppi\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.pdb
