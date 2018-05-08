@@ -1,0 +1,108 @@
+/* Mobile*/
+html, body{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+section{
+  text-align: center;
+  margin: 5px;
+}
+
+#home_link{
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+#heading-boarder{
+  margin: 0 auto;
+  width: 50%;
+  height: 90%;
+  line-height: 100%;
+  background-color: #4e2851;
+  border: thick black solid;
+}
+h1{
+  text-align: center;
+  font-family: 'Baloo', cursive;
+  font-size: 45px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.main-content{
+  width: 100%;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+.body-text{
+  line-height: 200%;
+}
+.body-content{
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 5%;
+}
+#main-banner{
+  flex-direction: column;
+}
+.banner-item{
+  padding: 2%;
+  padding-top: 3%;
+  font-size: 1em;
+  margin: 10px;
+}
+.banner-item-text{
+  border: none;
+  font-size: 1.25em;
+  font-weight: 100;
+}
+
+/*Tablet Sizing*/
+@media (min-width: 550px){
+  h1{
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+  h2{
+    font-size: 4.375em;
+  }
+  .banner-item-text{
+    border: none;
+    font-size: 1.875em;
+    font-weight: 100;
+  }
+  .body-content{
+    width: 90%;
+  }
+  h3{
+    font-size: 2.5em;
+  }
+  p{
+    font-size: 1.875em;
+  }
+}
+
+/*Desktop and Laptop Sizing*/
+@media (min-width: 1200px){
+  #heading-boarder{
+    width: 50%;
+  }
+  #main-banner{
+    flex-direction: row;
+  }
+  .banner-item{
+    padding: 2%;
+  }
+  p{
+    font-size: 1em;
+  }
+}

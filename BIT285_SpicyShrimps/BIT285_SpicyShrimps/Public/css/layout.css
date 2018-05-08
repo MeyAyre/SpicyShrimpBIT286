@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+
+header{
+  width: 100%;
+  padding-top: 1px;
+  height: 100%;
+}
+
+#main-banner{
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.banner-item{
+  background-color: white;
+  border-radius: 15%;
+  width: 50%;
+  height: 75%;
+  padding-top: 5%;
+}
+
+.main-content{
+  padding: 25px;
+}
+.body-text{
+  text-align: left;
+}
+.container{
+  display: flex;
+}

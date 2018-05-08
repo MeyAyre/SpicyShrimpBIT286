@@ -1,0 +1,62 @@
+h2{
+  width: 50%;
+  margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+}
+.banner{
+  justify-content: space-around;
+}
+.icons{
+  margin-top: 30%;
+}
+.gems{
+  padding-bottom: 5%;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -10%;
+}
+#ruby{
+  margin-bottom: 7%;
+}
+#emerald{
+  margin-top: 7%;
+}
+#sapphire{
+  margin-top: 7%;
+}
+#amethyst{
+  margin-bottom: 7%;
+}
+#about{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+#tagline{
+  text-align: center;
+}
+#character-icon{
+  margin-left: 25%;
+}
+#kids, #teachers{
+  margin: 0 auto;
+  text-align: center;
+  padding: 10%;
+  font-family: "Baloo", sans-serif;
+  color: white;
+}
+
+#play, #login{
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 75%;
+  border-radius: 25px;
+}

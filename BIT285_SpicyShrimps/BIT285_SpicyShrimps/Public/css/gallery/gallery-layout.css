@@ -1,0 +1,66 @@
+body{
+  background-color: white;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.body-content{
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.gallery-container{
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5%;
+}
+.filters{
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+.filter{
+  padding: 0;
+  background-color: #94ebff;
+  border-radius: 10%;
+  width: 20%;
+  text-align: center;
+}
+.filter > p{
+  margin: 1% 1% 1% 1%;
+  font-weight: 500;
+  font-size: 10px;
+}
+.small:hover{
+  border-color: #94ebff;
+  width: 110%;
+}
+h2{
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  border: thick solid #b4ff9f;
+  border-top: none;
+  color: white;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffb0b0;
+  background-color: white;
+}
+.carousel{
+  border-radius: 0;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5%;
+  border: none;
+}
+h4{
+  padding-top: 5%;
+
+}
+
+
+#heading{
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}

@@ -1,0 +1,148 @@
+/*All*/
+ ul{
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: none !important;
+}
+#port-sub{
+  color: black;
+  width: 100%;
+  list-style-type: circle;
+}
+ li{
+  line-height: 300%;
+  font-size: 15px;
+}
+.resume-content h2{
+    color: #4e2851;
+}
+.resume-content{
+  display: block;
+  margin-left: 5%;
+  background-color: white;
+  width: 60%;
+}
+#awards, #organizations, #pc-size-skills{
+  width: 95%;
+  margin: 0 auto;
+  border: thick solid #3aa3ff;
+}
+#organizations > .r-row{
+  width: 50%;
+}
+#organizations > .r-row > div > ul > li{
+  list-style: none;
+  text-align: center;
+}
+#mobile-size-skills{
+  display: none;
+}
+
+
+/* Desktop */
+@media (min-width: 550px){
+  h3{
+    font-size: 20px;
+  }
+
+  .tabs {
+    display: inline;
+    background-color: white;
+    border: #d2d4d8 thin solid;
+    width: 25%;
+    height: 50%;
+    vertical-align: top;
+  }
+  .sect{
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .r-col{
+    width: 25%;
+  }
+  .r-col p{
+    text-align: center;
+    font-size: 15px;
+  }
+  .tab-link{
+    background-color: inherit;
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: #d2d4d8 1px solid;
+    text-align: center;
+    padding: 3%;
+    font-weight: 500;
+  }
+  .tab-content{
+    display: block;
+  }
+  /* Change background color of buttons on hover */
+  .tabs button:hover {
+      background-color: #ddd;
+  }
+  .tabs button.active {
+      background-color: #ccc;
+  }
+
+  .mobile-dropdown{
+    display: none;
+  }
+  #awards{
+    display: flex;
+  }
+  #mobile-awards{
+    display: none;
+  }
+}
+
+
+@media (max-width: 1000px){
+  .resume-box{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mobile-dropdown{
+    display: block;
+    width: 100%;
+  }
+  .resume-content{
+    width: 100%;
+    margin: 0 auto;
+  }
+  ul{
+    width: 100%;
+  }
+  select{
+    padding: 3%;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  h3{
+  font-size:  1.5em;
+  }
+  #tab-link{
+    display: none;
+  }
+  .tabs{
+    display: none;
+  }
+  #mobile-awards{
+    display: block;
+    border: thick solid #3aa3ff;
+  }
+  #awards{
+    display: none;
+  }
+  #mobile-size-skills{
+    display: block;
+    border: thick solid #3aa3ff;
+  }
+  #pc-size-skills{
+    display: none;
+  }
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,900');
+/*Mobile*/
+html, body{
+  margin: 0;
+  padding: 0;
+}
+  body{
+    font-family: "Open Sans", sans-serif;
+  }
+  h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  img{
+    border-radius: 25%;
+    border: solid thick #e4ff55;
+  }
+  #search{
+    margin: 0 auto;
+    width: 100%;
+  }
+  #search-box{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #desktop{
+    display: none;
+  }
+  #main{
+    font-weight: 900;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffb0b0;
+  }
+  #mobilemain{
+    font-family: "Rubik", "Open Sans", sans-serif;
+    margin: 0;
+    font-weight: 900;
+    font-size: 80px;
+    display: block;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffb0b0;
+    background-color: #9bff80;
+  }
+  #gallery-images{
+    background-color: white;
+  }
+
+  #mobile-header{
+    background-color: #9bff80;
+  }
+  #mobile-header > p{
+    margin-top: 0;
+    text-align: center;
+  }
+  #mobile-nav{
+    font-family: "Rubik", sans-serif;
+    background-color: #9bff80;
+  }
+  #gallery{
+    width: 100%;
+  }
+  #details{
+    display: none;
+  }
+  .mobile-h3{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+    color: #6ec1d3;
+  }
+  #mobile-details{
+    background-color: #edf2f9;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    border: thick #e4ff55 solid;
+  }
+  #close-button{
+    right: 50%;
+    color: #33a8c4;
+    font-weight: bolder;
+    padding-left: 80%;
+  }
+  #detail-image-title{
+    text-align: center;
+    color: #6ec1d3;
+  }
+  .text{
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+  }
+  .doubled{
+    left: 50%;
+  }
+
+/*Tablet*/
+@media (min-width: 600px){
+  #desktop{
+    display: flex;
+  }
+  #mobile-content{
+    display: none;
+  }
+  #search-box{
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  #main{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1{
+    font-size: 60px;
+  }
+  h3{
+    color: #6ec1d3;
+    border: thick #94ebff solid;
+  }
+
+  #mobile-header{
+    display: none;
+  }
+
+  #gallery{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+  }
+  #details{
+    display: block;
+    width: 40%;
+    background-color: #edf2f9;
+  }
+  #nav-items{
+    justify-content: space-evenly;
+    width: 80%;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  #nav-items > a{
+    color: white;
+  }
+  #tagline{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    padding-bottom: 1%;
+  }
+  #navigation{
+    font-family: "Rubik", sans-serif;
+    background-color: #9bff80;
+  }
+  #details-body{
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 90%;
+    background-color: white;
+  }
+
+}
+
+/*iPad Pro, Laptop and Beyond*/
+@media (min-width: 900px) {
+  #mobile-content{
+    display: none;
+  }
+  #desktop{
+    display: flex;
+  }
+  h1{
+    font-size: 80px;
+    width: 30%;
+  }
+  #search{
+    margin-left: 5%;
+  }
+  #nav-items{
+    font-size: 30px;
+    align-items: flex-end;
+  }
+  h2{
+    width: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #details-title{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffb0b0;
+    border: thick solid #ffb0b0;
+    border-top: none;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+  #detail-image-title{
+    border: none;
+    font-size: 40px;
+    text-align: center;
+  }
+  #details-placeholder{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .claire-bob{
+    display: none;
+  }
+  .gallery-cell{
+    margin: 0 auto;
+    padding: 5%;
+  }
+  .doubled{
+    margin-left: 10%;
+  }
+  .text{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+  }
+}

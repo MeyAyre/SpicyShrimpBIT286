@@ -1,0 +1,46 @@
+/*For the non-mobile menu*/
+nav{
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5%;
+  text-align: left;
+}
+h1{
+  line-height: 100%;
+}
+.general-nav{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#navigation{
+  width: 100%;
+}
+.nav-item{
+  text-align: center;
+  width: 15%;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  border: thick black solid;
+}
+.nav-item:hover{
+  background-color: grey;
+}
+a {
+  text-decoration: none;
+}
+
+/*For tablets and the mobile header*/
+@media (max-width: 1000px){
+  .general-nav{
+    align-items: flex-end;
+  }
+  .nav-item{
+    width: 25%;
+    text-align: center;
+    border-right: none;
+  }
+  #contactme{
+    border-right: thick black solid;
+  }
+}
