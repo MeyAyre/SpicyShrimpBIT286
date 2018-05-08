@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BIT285_SpicyShrimps.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +25,11 @@ namespace BIT285_SpicyShrimps
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDistributedMemoryCache();
+            services.AddMvc()
+                .AddSessionStateTempDataProvider();
+            services.AddDbContext<MathDbContext>();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,8 +39,19 @@ namespace BIT285_SpicyShrimps
             {
                 app.UseDeveloperExceptionPage();
             }
+            //below is added
+            app.UseStaticFiles();
 
-            app.UseMvc();
+            //enable session before MVC
+            app.UseSession();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
+      
     }
 }

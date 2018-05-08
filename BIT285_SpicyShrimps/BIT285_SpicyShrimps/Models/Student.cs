@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
+using BIT285_SpicyShrimps.Models;
 
 namespace BIT285_SpicyShrimps.Models
 {
@@ -20,6 +22,8 @@ namespace BIT285_SpicyShrimps.Models
         [Required]
         public string OneWordPassword { get; set; }
         public int Level { get; set; }
+        //added an Activities 
+        public string Activities { get; set; }
         /*Navigation Property for Teacher*/
         public virtual Teacher Teacher { get; set; }
     }

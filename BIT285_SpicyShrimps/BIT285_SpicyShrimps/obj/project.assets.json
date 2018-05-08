@@ -13163,23 +13163,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\poppi\\.nuget\\packages\\": {},
+    "C:\\Users\\dawso\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "D:\\Users\\poppi\\source\\repos\\SpicyShrimpBIT286\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
+      "projectUniqueName": "C:\\Users\\dawso\\Source\\Repos\\SpicyShrimpBIT2862clone\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
       "projectName": "BIT285_SpicyShrimps",
-      "projectPath": "D:\\Users\\poppi\\source\\repos\\SpicyShrimpBIT286\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
-      "packagesPath": "C:\\Users\\poppi\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\poppi\\source\\repos\\SpicyShrimpBIT286\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\obj\\",
+      "projectPath": "C:\\Users\\dawso\\Source\\Repos\\SpicyShrimpBIT2862clone\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
+      "packagesPath": "C:\\Users\\dawso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dawso\\Source\\Repos\\SpicyShrimpBIT2862clone\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\poppi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dawso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

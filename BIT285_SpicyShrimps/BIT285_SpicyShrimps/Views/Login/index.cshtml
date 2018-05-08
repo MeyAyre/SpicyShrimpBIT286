@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "index";
+}
+
+<img src="~/images/DJscreenshot.png" style="width:500px;height:600px;">
+
+<h2>Welcome to Dungeon Jewels</h2>
+<h4>Are you a teacher or a student?</h4>
+
+<input type="button" value="Teacher" onclick="location.href='@Url.Action("TeacherLogin", "Login" )'" />
+<input type="button" value="Student" onclick="location.href='@Url.Action("StudentLogin", "Login" )'" />
+
+
+
+
+
