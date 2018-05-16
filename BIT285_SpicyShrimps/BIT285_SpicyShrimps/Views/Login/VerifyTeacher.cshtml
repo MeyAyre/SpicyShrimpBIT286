@@ -1,0 +1,15 @@
+﻿@model BIT285_SpicyShrimps.Models.Student
+
+@{
+    ViewData["Title"] = "StudentLogin";
+}
+
+<h2>Verify Teacher</h2>
+
+<h2>Is this your teacher?</h2>
+<hr />
+
+
+            <input type="button" value="Yes" onclick="location.href='@Url.Action("ChooseName", "Login" )'" />
+            <input type="button" value="No" onclick="location.href='@Url.Action("StudentLogin", "Login" )'" />
+

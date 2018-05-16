@@ -27,19 +27,54 @@ namespace BIT285_SpicyShrimps.Controllers
             return View("Index");
         }
 
-        //teacher login Get method
+       
+
+        //student login Get methods
+        [HttpGet]
+        public ActionResult studentLogin()
+        {
+            return View("StudentLogin");
+        }
+
+        [HttpGet]
+        public ActionResult VerifyTeacher()
+        {
+            return View("VerifyTeacher");
+        }
+
+        [HttpGet]
+        public ActionResult ChooseName()
+        {
+            return View("ChooseName");
+        }
+
+        [HttpGet]
+        public ActionResult SecretWord()
+        {
+            return View("SecretWord");
+        }
+
+        //teacher login Get methods
         [HttpGet]
         public ActionResult teacherLogin()
         {
             return View("TeacherLogin");
         }
 
-        //student login Get method
         [HttpGet]
-        public ActionResult studentLogin()
+        public ActionResult TeacherDashboard()
         {
-            return View("StudentLogin");
+            return View("TeacherDashboard");
         }
+
+        [HttpGet]
+        public ActionResult AddStudents()
+        {
+            return View("AddStudents");
+        }
+
+
+
         //teacher login method, Post method
         [HttpPost]
         public ActionResult teacherLogin(Teacher teacher)
