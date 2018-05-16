@@ -1,0 +1,18 @@
+﻿@model BIT285_SpicyShrimps.Models.Teacher
+
+@{
+    ViewData["Title"] = "AddStudents";
+}
+
+<h2>Add Students</h2>
+
+<h2>Your Class Section Number is:</h2>
+<hr />
+
+
+
+<input type="button" value="Add" onclick="location.href='@Url.Action("AddStudents", "Login" )'" />
+
+<input type="button" value="Done" onclick="location.href='@Url.Action("TeacherDashboard", "Login" )'" />
+
+
