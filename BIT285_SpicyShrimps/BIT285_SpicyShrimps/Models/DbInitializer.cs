@@ -18,8 +18,8 @@ namespace BIT285_SpicyShrimps.Models
         {
             context.Database.EnsureCreated();
 
-            // Look for any students.
-            if (context.Teachers.Any())
+            // Look for any teachers, students and activities.
+            if (context.Teachers.Any() && context.Students.Any() && context.Activities.Any())
             {
                 return;   // DB has been seeded
             }
@@ -35,7 +35,31 @@ namespace BIT285_SpicyShrimps.Models
             {
                 context.Teachers.Add(t);
             }
-    context.SaveChanges();
+            context.SaveChanges();
+            var students = new Student[]
+            {
+                new Student{FirstName="Joe",LastInitial="B",TeacherID=1,OneWordPassword="dog",Level=1,Activities="Joe.B" },
+
+                new Student{FirstName="Jane",LastInitial="D",TeacherID=2,OneWordPassword="cat",Level=1,Activities="Jane.D" }
+
+            };
+            foreach (Student s in students)
+            {
+                context.Students.Add(s);
+            }
+            context.SaveChanges();
+            //now seed the Activities
+            var activities = new Activity[]
+            {
+                new Activity{ActivityName="Joe.B",ActivityPassword="dog",ActivityDate=DateTime.Now},
+                new Activity{ActivityName="Jane.D",ActivityPassword="cat",ActivityDate=DateTime.Now},
+            };
+            foreach (Activity a in activities)
+            {
+                context.Activities.Add(a);
+            }
+            context.SaveChanges();
+
         }
     }
 }
