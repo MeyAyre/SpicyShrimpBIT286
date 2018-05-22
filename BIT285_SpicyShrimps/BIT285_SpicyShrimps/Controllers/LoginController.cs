@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BIT285_SpicyShrimps.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -17,7 +18,7 @@ namespace BIT285_SpicyShrimps.Controllers
         private MathDbContext m;
         public LoginController(MathDbContext _m)
         {
-            _m = m;
+            m = _m;
         }
 
         // Student login

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BIT285_SpicyShrimps.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -24,6 +25,9 @@ namespace BIT285_SpicyShrimps
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //added next line to register the context with the dependency injection container
+            services.AddDbContext<MathDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
             services.AddDistributedMemoryCache();
             services.AddMvc()
