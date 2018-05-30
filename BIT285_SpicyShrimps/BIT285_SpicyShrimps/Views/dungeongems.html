@@ -1,98 +1,140 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="@Url.Content("~/Scripts/jquery-3.2.1.min.js")"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="Scripts/hamburger.js"></script>
-    <link rel="stylesheet" href="../Public/css/hamburger.css">
-    <link rel="stylesheet" href="../Public/css/kids/main.css">
-    <link rel="stylesheet" href="../Public/css/kids/layout.css">
+    <script src="@Url.Content("~/Scripts/kidsdesign.js")"></script>
+    <link rel="stylesheet" href="@Url.Content(" ~/css/hamburger.css")">
+    <link rel="stylesheet" href="@Url.Content(" ~/css/kids/main.css")">
+    <link rel="stylesheet" href="@Url.Content(" ~/css/kids/layout.css")">
     <title>Dungeon Gems</title>
-  </head>
-    <body>
-      <header>
+</head>
+<body>
+    <header>
+        <span id="audio"></span>
         <!--Hambuger Menu-->
         <div id="hamburger">
-          <img srcset="../Public/Images/hamburger-icon-sm.png 34w, ../Public/Images/hamburger-icon-md.png 46w"
-          sizes="(max-width: 550px) 34px,(max-width: 1000px) 46px"
-          src="Images/hamburger-icon-md.png" aria-label="Menu Button" alt="" role="presentation">
+            <img srcset="Images/hamburger-icon-sm.png 34w, Images/hamburger-icon-md.png 46w"
+                 sizes="(max-width: 550px) 34px,(max-width: 1000px) 46px"
+                 src="Images/hamburger-icon-md.png" aria-label="Menu Button" alt="" role="presentation">
         </div>
 
         <!-- Main Navigation -->
         <nav class="container banner" id="desktop-nav">
-          <div>
-            <img src="../Public/Images/DungeonGems/kidsdesignlogo.png" role="presentation" alt="">
-            <div class="container gems">
-              <img class="gem" id="ruby" src="../Public/Images/DungeonGems/rubygem-md.png" role="presentation" alt="">
-              <img class="gem" id="emerald" src="../Public/Images/DungeonGems/emeraldgem-md.png" role="presentation" alt="">
-              <img class="gem" id="sapphire" src="../Public/Images/DungeonGems/sapphiregem-md.png" role="presentation" alt="">
-              <img class="gem" id="amethyst" src="../Public/Images/DungeonGems/amethystgem-md.png" role="presentation" alt="">
+            <div>
+                <img src="Images/DungeonGems/kidsdesignlogo-md.png" role="presentation" alt="">
+                <div class="container gems">
+                    <div id="element-1">
+                        <img class="gem ruby" src="Images/DungeonGems/rubygem-md.png" role="presentation" alt="">
+                    </div>
+                    <div id="element-2">
+                        <img class="gem emerald" src="Images/DungeonGems/emeraldgem-md.png" role="presentation" alt="">
+                    </div>
+                    <div id="element-3">
+                        <img class="gem sapphire" src="Images/DungeonGems/sapphiregem-md.png" role="presentation" alt="">
+                    </div>
+                    <div id="element-4">
+                        <img class="gem amethyst" src="Images/DungeonGems/amethystgem-md.png" role="presentation" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div id="activities">
-            <img class="icons" src="../Public/Images/DungeonGems/make-icon-md.png " role="presentation" alt="">
-            <p>Activities</p>
-          </div>
-          <div id="characters">
-            <img class="icons" id="character-icon" src="../Public/Images/DungeonGems/characters-icon-md.png" role="presentation" alt="">
-            <p>Characters</p>
-          </div>
-          <div id="grownups">
-            <img class="icons" src="../Public/Images/DungeonGems/grownups-icon-md.png" role="presentation" alt="">
-            <p>Grown-Ups</p>
-          </div>
+            <div id="activities">
+                <img class="icons" src="Images/DungeonGems/make-icon-md.png " role="presentation" alt="">
+                <p>Activities</p>
+            </div>
+            <div id="characters">
+                <img class="icons" id="character-icon" src="Images/DungeonGems/characters-icon-md.png" role="presentation" alt="">
+                <p>Characters</p>
+            </div>
+            <div id="grownups">
+                <img class="icons" src="Images/DungeonGems/grownups-icon-md.png" role="presentation" alt="">
+                <p>Grown-Ups</p>
+            </div>
         </nav>
 
         <!-- Mobile Heading-->
         <div id="mobile-heading">
-          <img src="../Public/Images/DungeonGems/kidsdesignlogo.png" role="presentation" alt="">
-          <div class="container gems">
-            <img class="gem" id="ruby" src="../Public/Images/DungeonGems/rubygem-md.png" role="presentation" alt="">
-            <img class="gem" id="emerald" src="../Public/Images/DungeonGems/emeraldgem-md.png" role="presentation" alt="">
-            <img class="gem" id="sapphire" src="../Public/Images/DungeonGems/sapphiregem-md.png" role="presentation" alt="">
-            <img class="gem" id="amethyst" src="../Public/Images/DungeonGems/amethystgem-md.png" role="presentation" alt="">
-          </div>
+            <img id="logo" src="Images/DungeonGems/kidsdesignlogo-md.png" role="presentation" alt="">
+            <div class="container gems">
+                <div id="element-5">
+                    <img class="gem ruby" src="Images/DungeonGems/rubygem-md.png" role="presentation" alt="">
+                </div>
+                <div id="element-6">
+                    <img class="gem emerald" src="Images/DungeonGems/emeraldgem-md.png" role="presentation" alt="">
+                </div>
+                <div id="element-7">
+                    <img class="gem sapphire" src="Images/DungeonGems/sapphiregem-md.png" role="presentation" alt="">
+                </div>
+                <div id="element-8">
+                    <img class="gem amethyst" src="Images/DungeonGems/amethystgem-md.png" role="presentation" alt="">
+                </div>
+            </div>
         </div>
         <!--Mobile Menu-->
         <nav class="container" id="mobile-nav">
-          <ul>
-            <li class="styleBeGone">
-              <img class="icons" src="../Public/Images/DungeonGems/make-icon-sm.png" role="presentation" alt=""><br>
-              <a class="m-nav-item" href="index.html">Activities</a>
-            </li>
-            <li class="styleBeGone">
-              <img class="icons" id="character-icon" src="../Public/Images/DungeonGems/characters-icon-sm.png" role="presentation" alt=""><br>
-              <a class="m-nav-item" href="resume.html">Characters</a>
-            </li>
-            <li class="styleBeGone">
-              <img class="icons" src="../Public/Images/DungeonGems/grownups-icon-sm.png" role="presentation" alt=""><br>
-              <a class="m-nav-item" href="portfolio.html">Grown-Ups</a>
-            </li>
-          </ul>
+            <ul>
+                <li class="styleBeGone">
+                    <img class="icons" src="Images/DungeonGems/make-icon-sm.png" role="presentation" alt=""><br>
+                    <a class="m-nav-item" href="index.html">Activities</a>
+                </li>
+                <li class="styleBeGone">
+                    <img class="icons" src="Images/DungeonGems/characters-icon-sm.png" role="presentation" alt=""><br>
+                    <a class="m-nav-item" href="resume.html">Characters</a>
+                </li>
+                <li class="styleBeGone">
+                    <img class="icons" src="Images/DungeonGems/grownups-icon-sm.png" role="presentation" alt=""><br>
+                    <a class="m-nav-item" href="portfolio.html">Grown-Ups</a>
+                </li>
+            </ul>
         </nav>
-      </header>
-      <main>
+    </header>
+    <main>
         <section class="container banner">
-          <div id="kids">
-            <h2>Kids</h2>
-            <p id="play">Play Now!</p>
-          </div>
-          <div id="teachers">
-            <h2>Teachers</h2>
-            <p id="login">Log In</p>
-          </div>
+            <div id="kids">
+                <h2>Kids</h2>
+                <input id="play" type="button" value="Play" onclick="location.href='@Url.Action(" StudentLogin", "Login" )'" />
+            </div>
+            <div id="teachers">
+                <h2>Teachers</h2>
+                <input id="login" type="button" value="Log In" onclick="location.href='@Url.Action(" TeacherLogin", "Login" )'" />
+            </div>
+        </section>
+        <section id="storyline">
+            <h3>Dungeon Gems</h3>
+            <div class="container">
+                <p>
+                    <span id="story">The Story</span> <br><br>
+                    The Queen’s crown has lost all of its jewels in the dark dungeon of the kingdom!
+                    Getting them back would be dangerous, so she’s asked dungeon adventurers from across the kingdom
+                    to find her jewels for her and bring them back in exchange for a marvelous prize.
+                </p>
+                <p>
+                    <span id="grown-up-info">For Grown-Ups</span> <br><br>
+                    Students will play as a dungeon adventurer and will scour the different rooms of the dungeon to find the jewels.
+                    In order to get the jewels and fix the crown, the student will need to 5 solve puzzles that use the basics of
+                    geometry, place value, comparison, and sorting.
+                </p>
+            </div><br><br>
+            <a id="secretlink" href="">Shhhhhh! It's the Super Secret Link</a>
         </section>
         <section>
-          <div id="about">
-            <h3>What is Dungeon Jewels?</h3>
-            <p>
-              Dungeon Jewels is a game and teaching aid designed to teach 1st graders math.
-            </p>
-            <p>
-              With Dungeon Jewels your classroom will 
-            </p>
-          </div>
+            <div id="about">
+                <h3>What is Dungeon Gems?</h3>
+                <p>
+                    Dungeon Gems is a game and teaching aid designed to teach 1st graders math.
+                </p>
+                <p>
+                    With Dungeon Gems your classroom will learn to love math through fun and engaging games that follow the
+                    Common Core standards for 1st grade math.
+                </p>
+            </div>
         </section>
-      </main>
-    </body>
-  </html>
+    </main>
+    <footer>
+        <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by 0melapics - Freepik.com</a><br>
+        <a href="https://freesound.org/people/Robinhood76/sounds/342432/"> Sound effect from Robinhood76 off FreeSound.org</a>
+    </footer>
+</body>
+</html>

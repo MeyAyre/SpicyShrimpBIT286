@@ -13163,27 +13163,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dawso\\.nuget\\packages\\": {},
+    "C:\\Users\\Mei\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dawso\\Source\\Repos\\SpicyShrimpBIT2862clone\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
+      "projectUniqueName": "C:\\Users\\Mei\\source\\repos\\SpicyShrimpBIT286\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
       "projectName": "BIT285_SpicyShrimps",
-      "projectPath": "C:\\Users\\dawso\\Source\\Repos\\SpicyShrimpBIT2862clone\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
-      "packagesPath": "C:\\Users\\dawso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dawso\\Source\\Repos\\SpicyShrimpBIT2862clone\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\obj\\",
+      "projectPath": "C:\\Users\\Mei\\source\\repos\\SpicyShrimpBIT286\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps.csproj",
+      "packagesPath": "C:\\Users\\Mei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mei\\source\\repos\\SpicyShrimpBIT286\\BIT285_SpicyShrimps\\BIT285_SpicyShrimps\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dawso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Mei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
