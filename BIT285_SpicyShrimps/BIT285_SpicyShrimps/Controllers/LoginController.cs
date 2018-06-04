@@ -20,6 +20,12 @@ namespace BIT285_SpicyShrimps.Controllers
             _m = m;
         }
 
+        //Get the homepage
+        [HttpGet]
+        public ActionResult Dungeon()
+        {
+            return View("dungeon");
+        }
         // Student login
         [HttpGet]
         public ActionResult Index()

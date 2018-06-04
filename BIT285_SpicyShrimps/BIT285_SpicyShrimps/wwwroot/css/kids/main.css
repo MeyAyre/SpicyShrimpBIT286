@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+body {
+    font-family: sans-serif;
+    background: url("../../Images/DungeonGems/stonewall.jpg");
+}
+/*Mobile*/
+h2 {
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+header {
+    font-family: 'Baloo', sans-serif;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+h3 {
+    font-family: 'Baloo', sans-serif;
+}
+
+nav {
+    border-radius: 25px;
+    background-color: #ede407;
+    margin: 0 auto;
+    width: 80%;
+}
+
+    nav > div > p {
+        font-size: 15px;
+    }
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: #ede407 2px solid;
+}
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+#desktop-nav {
+    display: none;
+}
+
+#mobile-heading {
+    background-color: #ede407;
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: thick black solid;
+}
+
+#logo {
+    margin-left: 7%;
+}
+
+#hamburger {
+    left: -5%;
+    top: 3%;
+}
+
+#mobile-nav > ul > li {
+    margin-left: 15%;
+}
+
+.m-nav-item {
+    color: black;
+}
+
+#storyline {
+    background-color: #268708;
+    color: white;
+    padding-top: 1%;
+    margin-top: 0;
+    padding-bottom: 3%;
+}
+
+    #storyline > h3 {
+        font-size: 3.5em;
+        padding-bottom: 0;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #storyline > div > p {
+        margin: 0 auto;
+        padding: 3%;
+        padding-bottom: 3%;
+        padding-top: 1%;
+        color: black;
+        background-color: white;
+        width: 80%;
+    }
+
+#secretlink {
+    padding: 5%;
+    color: #323378;
+}
+
+#story, #grown-up-info {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    font-family: "Baloo", sans-serif;
+    padding: 2%;
+}
+
+#about {
+    margin-top: 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#play, #login {
+    font-weight: bold;
+    background: linear-gradient(#1f55d3, #052072);
+    font-family: "Baloo", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10%;
+    border: 0.75px black solid;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#play {
+    background: linear-gradient(#8c0e91, #560559);
+}
+
+#kids {
+    background-color: #cc1420;
+    border-top-left-radius: 25px;
+}
+
+#teachers {
+    background-color: #560559;
+    width: 30%;
+    border-top-right-radius: 25px;
+}
+
+    #teachers > h2, #kids > h2 {
+        margin: 0;
+        text-align: left;
+        font-size: 1.80em;
+    }
+
+#play, #login {
+    font-size: 25px;
+    text-shadow: none;
+}
+
+/*Tablet*/
+@media(min-width: 600px) {
+    header {
+        background-color: inherit;
+    }
+
+    nav > div > p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    #desktop-nav {
+        display: flex;
+    }
+
+    #mobile-nav {
+        display: none;
+    }
+
+    #mobile-heading {
+        display: none;
+    }
+
+    #play, #login {
+        font-size: 25px;
+        padding: 5%;
+    }
+
+    #kids, #teachers {
+        padding: 5%;
+        width: 50%;
+    }
+
+        #teachers > h2, #kids > h2 {
+            margin: 0 auto;
+            font-size: 3.75em;
+        }
+}
+
+/*Desktop*/
+@media(min-width: 1000px) {
+    nav > div > p {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #play, #login {
+        font-size: 2.5em;
+        font-weight: 900;
+    }
+
+    #teachers > h2 {
+        text-align: center;
+        margin-left: 10%;
+    }
+}

@@ -5,7 +5,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\DungeonGems\amethystgem-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\amethystgem.png" />
+    <Content Remove="wwwroot\images\DungeonGems\characters-icon-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\characters-icon-sm.png" />
+    <Content Remove="wwwroot\images\DungeonGems\characters-icon.png" />
+    <Content Remove="wwwroot\images\DungeonGems\emeraldgem-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\emeraldgem.png" />
+    <Content Remove="wwwroot\images\DungeonGems\grownups-icon-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\grownups-icon-sm.png" />
+    <Content Remove="wwwroot\images\DungeonGems\grownups-icon.png" />
+    <Content Remove="wwwroot\images\DungeonGems\kidsdesignlogo.png" />
+    <Content Remove="wwwroot\images\DungeonGems\make-icon-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\make-icon-sm.png" />
+    <Content Remove="wwwroot\images\DungeonGems\make-icon.png" />
+    <Content Remove="wwwroot\images\DungeonGems\rubygem-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\rubygem.png" />
+    <Content Remove="wwwroot\images\DungeonGems\sapphiregem-md.png" />
+    <Content Remove="wwwroot\images\DungeonGems\sapphiregem.png" />
+    <Content Remove="wwwroot\images\DungeonGems\stonewall.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Public\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,9 +42,43 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\base.css" />
+    <None Include="wwwroot\css\coloring.css" />
+    <None Include="wwwroot\css\gallery\font.css" />
+    <None Include="wwwroot\css\gallery\gallery-layout.css" />
+    <None Include="wwwroot\css\gallery\gallery.css" />
+    <None Include="wwwroot\css\hamburger.css" />
+    <None Include="wwwroot\css\kids\layout.css" />
+    <None Include="wwwroot\css\kids\main.css" />
+    <None Include="wwwroot\css\layout.css" />
+    <None Include="wwwroot\css\menu.css" />
+    <None Include="wwwroot\css\portfolio.css" />
+    <None Include="wwwroot\css\resume.css" />
+    <None Include="wwwroot\css\screen.css" />
     <None Include="wwwroot\images\DJscreenshot.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="wwwroot\images\DungeonGems\amethystgem-md.png" />
+    <None Include="wwwroot\images\DungeonGems\amethystgem.png" />
+    <None Include="wwwroot\images\DungeonGems\characters-icon-md.png" />
+    <None Include="wwwroot\images\DungeonGems\characters-icon-sm.png" />
+    <None Include="wwwroot\images\DungeonGems\characters-icon.png" />
+    <None Include="wwwroot\images\DungeonGems\emeraldgem-md.png" />
+    <None Include="wwwroot\images\DungeonGems\emeraldgem.png" />
+    <None Include="wwwroot\images\DungeonGems\grownups-icon-md.png" />
+    <None Include="wwwroot\images\DungeonGems\grownups-icon-sm.png" />
+    <None Include="wwwroot\images\DungeonGems\grownups-icon.png" />
+    <None Include="wwwroot\images\DungeonGems\kidsdesignlogo.png" />
+    <None Include="wwwroot\images\DungeonGems\make-icon-md.png" />
+    <None Include="wwwroot\images\DungeonGems\make-icon-sm.png" />
+    <None Include="wwwroot\images\DungeonGems\make-icon.png" />
+    <None Include="wwwroot\images\DungeonGems\rubygem-md.png" />
+    <None Include="wwwroot\images\DungeonGems\rubygem.png" />
+    <None Include="wwwroot\images\DungeonGems\sapphiregem-md.png" />
+    <None Include="wwwroot\images\DungeonGems\sapphiregem.png" />
+    <None Include="wwwroot\images\DungeonGems\stonewall.jpg" />
+    <None Include="wwwroot\Scripts\door.pde" />
+    <None Include="wwwroot\Scripts\processing.min.js" />
   </ItemGroup>
 
   <ItemGroup>

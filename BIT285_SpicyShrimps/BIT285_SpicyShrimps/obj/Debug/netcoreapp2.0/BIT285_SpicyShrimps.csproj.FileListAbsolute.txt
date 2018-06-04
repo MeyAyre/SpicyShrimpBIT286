@@ -32,3 +32,4 @@ C:\Users\dawso\Source\Repos\SpicyShrimpBIT2862clone\BIT285_SpicyShrimps\BIT285_S
 C:\Users\dawso\Source\Repos\SpicyShrimpBIT2862clone\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.dll
 C:\Users\dawso\Source\Repos\SpicyShrimpBIT2862clone\BIT285_SpicyShrimps\BIT285_SpicyShrimps\obj\Debug\netcoreapp2.0\BIT285_SpicyShrimps.pdb
 C:\Users\dawso\Source\Repos\SpicyShrimpBIT2862clone\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\wwwroot\images\DJscreenshot.png
+C:\Users\Mei\source\repos\SpicyShrimpBIT286\BIT285_SpicyShrimps\BIT285_SpicyShrimps\bin\Debug\netcoreapp2.0\wwwroot\images\DJscreenshot.png
