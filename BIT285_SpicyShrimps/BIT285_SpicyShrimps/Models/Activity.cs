@@ -17,5 +17,9 @@ namespace BIT285_SpicyShrimps.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime ActivityDate { get; set; }
+
+        //adding a timespan property to keeptrack of how long it takes a student to complete a level
+        public TimeSpan LevelCompletionTime { get; set; }
+        public int Level { get; set; }
     }
 }
